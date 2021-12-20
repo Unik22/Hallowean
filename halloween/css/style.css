@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+body {
+    font-family: 'Bad Script', cursive;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/fon3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    color:aliceblue;
+    padding: 50px;
+}
+.newyear{   
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;   
+}
+.newyear-img {
+    width: 20vw;
+    text-align: center;
+}
+
+.newyear-img img{
+    max-width: 100%;
+    opacity: 0;
+    transform: translateY(-160px);
+}
+.newyear-img:hover img{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s;
+}
+h1:hover{
+    transform: translateX(300px);
+    transition: 1s;
+}
